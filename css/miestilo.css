@@ -1,0 +1,173 @@
+.icon-lg {
+    font-size: 50px;
+    color: #198754;
+}
+
+#topbar {
+    background-color: #09947d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#topbar span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+#hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #09947809;
+}
+
+.img-redonda {
+    border-radius: 20px;
+}
+
+#habilidades {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#habilidades h3 {
+    font-size: medium;
+    font-weight: 400;
+}
+
+#habilidades p {
+    font-size: small;
+    font-weight: 400;
+}
+
+#redondo {
+    background-color: var(--color-primary) !important;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+}
+
+.icono-color {
+    color: #09947d;
+    background-color: #e4f5f1;
+    padding: 10px;
+    border-radius: 55px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#habilidades p {
+    color: grey;
+}
+
+
+.titulo-about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.numeros {
+    font-weight: lighter;
+    font-size: 60px;
+    color: #09947d;
+}
+
+.letras-gris {
+    color: #444444;
+    text-transform: uppercase;
+}
+
+#newsletter {
+    background-color: #09947809;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+footer {
+    background-color: #edf6f4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+footer ul {
+    color: grey;
+}
+
+hr {
+    color: rgba(128, 128, 128, 0.765);
+}
+
+@media (width <=1200px) {
+    body {
+        background-color: mediumturquoise;
+    }
+}
+
+@media (width <=1200px) {
+
+    .titulo-hero {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(165, 42, 149);
+    }
+}
+
+@keyframes cambiarcolor {
+    0% { color: #871964 }
+    50% { color: #87197e }
+    100% { color: #871919 }
+
+}
+
+.titulocambiacolor{
+    animation-name: cambiarcolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.hero-section {
+    position: relative;
+    height: 70vh;
+    background-image: url("img/home.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+
+.section-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.section-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.section-content p {
+    font-size: 1.2rem;
+}
